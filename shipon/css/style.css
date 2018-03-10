@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/*Global*/
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    min-height: 30px;
+    padding: 3px 20px;
+    color: black;
+    font-weight: 600;
+}
+/*Header*/
+
+header {
+    background: url('../img/head1.jpg') no-repeat 0 ;
+    color: #000000;
+    padding-top: 0px;
+    min-height: 400px;
+    width: 100%;
+}
+
+header #branding {
+    float: left;
+    margin-left: 60px;
+}
+
+header #branding h3{
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    margin: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 10px 5px;
+    margin-top: 0;
+    
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header a:hover{
+    color: gray;
+    font-style: italic;
+}
+
+header .header_text{
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 60px;
+    color: black;
+}
+
+header .header_text h3{
+    margin: 0;
+    padding: 0;
+}
+
+header .header_text p{
+    margin: 0;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+nav{
+    float: right;
+    padding-right: 60px;
+    padding-top: 5px;
+}
+
+header .head{
+    color: orange;
+    font-style: italic;
+}
+
+/*About*/
+#about{
+    background: #ffffff;
+    padding-top: 30px;
+}
+
+#about .about_box{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.skill{
+    color: orange;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#about .about_box h2{
+    padding-top: 90px;
+    font-style: italic;
+    color: orange;
+    font-weight: 600;
+}
+
+/*Portfolio*/
+
+#portfolio {
+    background: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#portfolio h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 20px 0 1px 0;
+}
+
+.portfolio_sec {
+    position: relative;
+    width: 23%;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.portfolio_sec:hover .image {
+    opacity: 0.3;
+}
+
+.portfolio_sec:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12px;
+    line-height: 1em;
+    padding: 2px;
+    font-style: italic;
+}
+
+/*Contact*/
+
+#contact {
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+#contact h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 20px 0 1px 0;
+}
+
+#contact .contact_sec {
+    float: left;
+    width: 45%;
+    text-align: left;
+    padding: 10px;
+}
+
+#contact .contact_sec h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+#contact .contact_sec input,
+#contact .contact_sec textarea {
+    width: 60%;
+    padding: 3px;
+}
+
+
+footer {
+    background: #3C3F41;
+    color: #ffffff;
+    padding-top: 0px;
+    max-height: 300px;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+footer p {
+    padding: 20px;
+}
